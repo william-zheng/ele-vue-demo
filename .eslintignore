@@ -1,3 +1,5 @@
 test/unit/coverage/**
 test/unit/*.js
 test/e2e/*.js
+src/renderer/js/jquery-slim.js
+src/renderer/js/autoTestRunner.js
