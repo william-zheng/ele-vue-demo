@@ -21,219 +21,219 @@ export default new Router({
       component: require('@/components/iview-examples').default,
       children: [{
         path: '/split',
-        component: (resolve) => require(['@/routers/split.vue'], resolve)
+        component: require('@/routers/split.vue').default
       },
       {
         path: '/layout',
-        component: (resolve) => require(['@/routers/layout.vue'], resolve)
+        component: require('@/routers/layout.vue').default
       },
       {
         path: '/affix',
-        component: (resolve) => require(['@/routers/affix.vue'], resolve)
+        component: require('@/routers/affix.vue').default
       },
       {
         path: '/anchor',
-        component: (resolve) => require(['@/routers/anchor.vue'], resolve)
+        component: require('@/routers/anchor.vue').default
       },
       {
         path: '/grid',
-        component: (resolve) => require(['@/routers/grid.vue'], resolve)
+        component: require('@/routers/grid.vue').default
       },
       {
         path: '/button',
-        component: (resolve) => require(['@/routers/button.vue'], resolve)
+        component: require('@/routers/button.vue').default
       },
       {
         path: '/input',
-        component: (resolve) => require(['@/routers/input.vue'], resolve)
+        component: require('@/routers/input.vue').default
       },
       {
         path: '/radio',
-        component: (resolve) => require(['@/routers/radio.vue'], resolve)
+        component: require('@/routers/radio.vue').default
       },
       {
         path: '/checkbox',
-        component: (resolve) => require(['@/routers/checkbox.vue'], resolve)
+        component: require('@/routers/checkbox.vue').default
       },
       {
         path: '/steps',
-        component: (resolve) => require(['@/routers/steps.vue'], resolve)
+        component: require('@/routers/steps.vue').default
       },
       {
         path: '/timeline',
-        component: (resolve) => require(['@/routers/timeline.vue'], resolve)
+        component: require('@/routers/timeline.vue').default
       },
       {
         path: '/switch',
-        component: (resolve) => require(['@/routers/switch.vue'], resolve)
+        component: require('@/routers/switch.vue').default
       },
       {
         path: '/alert',
-        component: (resolve) => require(['@/routers/alert.vue'], resolve)
+        component: require('@/routers/alert.vue').default
       },
       {
         path: '/badge',
-        component: (resolve) => require(['@/routers/badge.vue'], resolve)
+        component: require('@/routers/badge.vue').default
       },
       {
         path: '/tag',
-        component: (resolve) => require(['@/routers/tag.vue'], resolve)
+        component: require('@/routers/tag.vue').default
       },
       {
         path: '/input-number',
-        component: (resolve) => require(['@/routers/input-number.vue'], resolve)
+        component: require('@/routers/input-number.vue').default
       },
       {
         path: '/upload',
-        component: (resolve) => require(['@/routers/upload.vue'], resolve)
+        component: require('@/routers/upload.vue').default
       },
       {
         path: '/progress',
-        component: (resolve) => require(['@/routers/progress.vue'], resolve)
+        component: require('@/routers/progress.vue').default
       },
       {
         path: '/collapse',
-        component: (resolve) => require(['@/routers/collapse.vue'], resolve)
+        component: require('@/routers/collapse.vue').default
       },
       {
         path: '/carousel',
-        component: (resolve) => require(['@/routers/carousel.vue'], resolve)
+        component: require('@/routers/carousel.vue').default
       },
       {
         path: '/card',
-        component: (resolve) => require(['@/routers/card.vue'], resolve)
+        component: require('@/routers/card.vue').default
       },
       {
         path: '/tree',
-        component: (resolve) => require(['@/routers/tree.vue'], resolve)
+        component: require('@/routers/tree.vue').default
       },
       {
         path: '/rate',
-        component: (resolve) => require(['@/routers/rate.vue'], resolve)
+        component: require('@/routers/rate.vue').default
       },
       {
         path: '/circle',
-        component: (resolve) => require(['@/routers/circle.vue'], resolve)
+        component: require('@/routers/circle.vue').default
       },
       {
         path: '/tabs',
-        component: (resolve) => require(['@/routers/tabs.vue'], resolve)
+        component: require('@/routers/tabs.vue').default
       },
       {
         path: '/tooltip',
-        component: (resolve) => require(['@/routers/tooltip.vue'], resolve)
+        component: require('@/routers/tooltip.vue').default
       },
       {
         path: '/poptip',
-        component: (resolve) => require(['@/routers/poptip.vue'], resolve)
+        component: require('@/routers/poptip.vue').default
       },
       {
         path: '/slider',
-        component: (resolve) => require(['@/routers/slider.vue'], resolve)
+        component: require('@/routers/slider.vue').default
       },
       {
         path: '/dropdown',
-        component: (resolve) => require(['@/routers/dropdown.vue'], resolve)
+        component: require('@/routers/dropdown.vue').default
       },
       {
         path: '/breadcrumb',
-        component: (resolve) => require(['@/routers/breadcrumb.vue'], resolve)
+        component: require('@/routers/breadcrumb.vue').default
       },
       {
         path: '/menu',
-        component: (resolve) => require(['@/routers/menu.vue'], resolve)
+        component: require('@/routers/menu.vue').default
       },
       {
         path: '/spin',
-        component: (resolve) => require(['@/routers/spin.vue'], resolve)
+        component: require('@/routers/spin.vue').default
       },
       {
         path: '/cascader',
-        component: (resolve) => require(['@/routers/cascader.vue'], resolve)
+        component: require('@/routers/cascader.vue').default
       },
       {
         path: '/select',
-        component: (resolve) => require(['@/routers/select.vue'], resolve)
+        component: require('@/routers/select.vue').default
       },
       {
         path: '/backtop',
-        component: (resolve) => require(['@/routers/back-top.vue'], resolve)
+        component: require('@/routers/back-top.vue').default
       },
       {
         path: '/page',
-        component: (resolve) => require(['@/routers/page.vue'], resolve)
+        component: require('@/routers/page.vue').default
       },
       {
         path: '/transfer',
-        component: (resolve) => require(['@/routers/transfer.vue'], resolve)
+        component: require('@/routers/transfer.vue').default
       },
       {
         path: '/date',
-        component: (resolve) => require(['@/routers/date.vue'], resolve)
+        component: require('@/routers/date.vue').default
       },
       {
         path: '/form',
-        component: (resolve) => require(['@/routers/form.vue'], resolve)
+        component: require('@/routers/form.vue').default
       },
       {
         path: '/table',
-        component: (resolve) => require(['@/routers/table.vue'], resolve)
+        component: require('@/routers/table.vue').default
       },
       {
         path: '/loading-bar',
-        component: (resolve) => require(['@/routers/loading-bar.vue'], resolve)
+        component: require('@/routers/loading-bar.vue').default
       },
       {
         path: '/modal',
-        component: (resolve) => require(['@/routers/modal.vue'], resolve)
+        component: require('@/routers/modal.vue').default
       },
       {
         path: '/message',
-        component: (resolve) => require(['@/routers/message.vue'], resolve)
+        component: require('@/routers/message.vue').default
       },
       {
         path: '/notice',
-        component: (resolve) => require(['@/routers/notice.vue'], resolve)
+        component: require('@/routers/notice.vue').default
       },
       {
         path: '/avatar',
-        component: (resolve) => require(['@/routers/avatar.vue'], resolve)
+        component: require('@/routers/avatar.vue').default
       },
       {
         path: '/color-picker',
-        component: (resolve) => require(['@/routers/color-picker.vue'], resolve)
+        component: require('@/routers/color-picker.vue').default
       },
       {
         path: '/auto-complete',
-        component: (resolve) => require(['@/routers/auto-complete.vue'], resolve)
+        component: require('@/routers/auto-complete.vue').default
       },
       {
         path: '/scroll',
-        component: (resolve) => require(['@/routers/scroll.vue'], resolve)
+        component: require('@/routers/scroll.vue').default
       },
       {
         path: '/divider',
-        component: (resolve) => require(['@/routers/divider.vue'], resolve)
+        component: require('@/routers/divider.vue').default
       },
       {
         path: '/time',
-        component: (resolve) => require(['@/routers/time.vue'], resolve)
+        component: require('@/routers/time.vue').default
       },
       {
         path: '/cell',
-        component: (resolve) => require(['@/routers/cell.vue'], resolve)
+        component: require('@/routers/cell.vue').default
       },
       {
         path: '/drawer',
-        component: (resolve) => require(['@/routers/drawer.vue'], resolve)
+        component: require('@/routers/drawer.vue').default
       },
       {
         path: '/icon',
-        component: (resolve) => require(['@/routers/icon.vue'], resolve)
+        component: require('@/routers/icon.vue').default
       },
       {
         path: '/list',
-        component: (resolve) => require(['@/routers/list.vue'], resolve)
+        component: require('@/routers/list.vue').default
       }]
     }
   ]

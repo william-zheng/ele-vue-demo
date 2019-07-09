@@ -17,7 +17,9 @@
             internal configurations, using the project structure, building your application,
             and so much more.
           </p>
-          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
+          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button>
+          <button @click="toggleDevTools">toggle DevTools</button>
+          <br><br>
         </div>
         <div class="doc">
           <div class="title alt">Other Documentation</div>
@@ -39,6 +41,10 @@
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
+      },
+      toggleDevTools() {
+        var ipc = this.$electron && this.$electron.ipcRenderer
+        ipc && ipc.send("toggleDevTools")
       }
     }
   }
